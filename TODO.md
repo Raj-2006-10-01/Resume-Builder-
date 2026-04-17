@@ -1,3 +1,14 @@
+# Server.js Fix - Make Server Runnable
+
+## Status: Plan approved. Implementing server.js fixes.
+
+## Steps:
+- [x] Step 1: Update server/server.js - Fix top-level await, spacing, move DB connect to listen callback
+- [x] Step 2: Test with `cd server && npm start` (or `node server.js`)
+- [x] Complete task
+
+Note: Original client Resume Preview TODO preserved below.
+
 # Resume Preview "Not Found" Fix - TODO
 
 ## Status: Plan approved by user. Starting minimal Preview page fix as requested.
@@ -12,4 +23,3 @@
 - [ ] Step 6: Test with `cd client && npm run dev`
 - [ ] Complete task
 
-- [ 
