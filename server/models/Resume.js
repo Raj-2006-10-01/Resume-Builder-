@@ -4,10 +4,11 @@ const ResumeSchema = new mongoose.Schema({
     userid: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
     title: { type: String, default: 'Untitled Resume' },
     public: { type: Boolean, default: false },
-    template: { type: String, default: "clasic" },
+    template: { type: String, default: "classic" },
+    accent_colour: { type: String, default: "#3B82F6" },
     accent_color: { type: String, default: "#3B82F6" },
     professional_summary: { type: String, default: ' ' },
-    skills: { type: String },
+    skills: [{ type: String }],
     personal_info: {
         image: { type: String, default: '' },
         full_name: { type: String, default: '' },
@@ -15,6 +16,7 @@ const ResumeSchema = new mongoose.Schema({
         email: { type: String, default: '' },
         phone: { type: String, default: '' },
         location: { type: String, default: '' },
+        linkedin: { type: String, default: '' },
         linkdin: { type: String, default: '' },
         website: { type: String, default: '' },
     },
@@ -22,8 +24,8 @@ const ResumeSchema = new mongoose.Schema({
         {
             company: { type: String },
             position: { type: String },
-            start_data: { type: String },
-            end_data: { type: String },
+            start_date: { type: String },
+            end_date: { type: String },
             description: { type: String },
             is_current: { type: Boolean },
         }
@@ -41,7 +43,8 @@ const ResumeSchema = new mongoose.Schema({
             institution: { type: String },
             degree: { type: String },
             field: { type: String },
-            graduaction_data: { type: String },
+            graduation_date: { type: String },
+            
             gpa: { type: String },
         }
     ],
