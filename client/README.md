@@ -1,16 +1,32 @@
-# React + Vite
+<div align="center">
+  <img src="banner.png" alt="Resume Builder" />
+  <h1>📄 Resume Builder</h1>
+  <p>Build a professional resume in minutes — no design skills needed.</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ![GitHub stars](https://img.shields.io/github/stars/Raj-2006-10-01/Resume-Builder)
+  ![License](https://img.shields.io/badge/license-MIT-green)
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://your-demo-link.com)
+</div>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- 🎨 Multiple professional templates
+- 📝 Real-time editing
+- 📄 One-click PDF export
+- 💾 Auto-save progress
 
-## React Compiler
+## 🛠️ Tech Stack
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
+1. Clone the repo  `git clone https://github.com/yourname/resume-builder`
+2. Open `index.html` in your browser
+3. Start building!
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+| Home | Editor | Preview |
+|------|--------|---------|
+| ![](screenshots/home.png) | ![](screenshots/editor.png) | ![](screenshots/preview.png) |

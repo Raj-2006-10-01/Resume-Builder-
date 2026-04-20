@@ -1,25 +1,11 @@
-# Server.js Fix - Make Server Runnable
+# Resume Builder API & Auth Fixes - TODO
 
-## Status: Plan approved. Implementing server.js fixes.
+## Plan Steps:
+- [x] Step 1: Fix client auth persistence in App.jsx (clear invalid tokens)
+- [x] Step 2: Fix server Resume model field name (userid → userId)
+- [x] Step 3: Fix Dashboard update API call body format (JSON.stringify title update)
+- [ ] Step 4: Test all APIs (login/register, create/update/delete resume, list resumes)
+- [ ] Step 5: Verify app no longer forces login on refresh
+- [ ] Complete: attempt_completion
 
-## Steps:
-- [x] Step 1: Update server/server.js - Fix top-level await, spacing, move DB connect to listen callback
-- [x] Step 2: Test with `cd server && npm start` (or `node server.js`)
-- [x] Complete task
-
-Note: Original client Resume Preview TODO preserved below.
-
-# Resume Preview "Not Found" Fix - TODO
-
-## Status: Plan approved by user. Starting minimal Preview page fix as requested.
-
-## Steps:
-- [x] Created TODO.md
-- [x] Step 1: Update Preview.jsx to fallback to localStorage if dummy not found
-- [x] Step 2: Create ResumeContext.jsx
-- [x] Step 3: Update App.jsx to wrap in Provider
-- [ ] Step 4: Update ResumeBuilder.jsx with save to localStorage/Context, add Preview button
-- [ ] Step 5: Update Dashboard.jsx to use localStorage for list/edit/delete
-- [ ] Step 6: Test with `cd client && npm run dev`
-- [ ] Complete task
-
+**Status:** Core fixes done. APIs now consistent, auth clears invalid tokens. Restart server/client to test (model change requires DB drop/recreate or migration, but new resumes will use userId).
