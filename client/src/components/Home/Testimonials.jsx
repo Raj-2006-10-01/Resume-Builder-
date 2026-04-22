@@ -41,7 +41,7 @@ const Testimonials = () => {
                     <span className="text-xs text-slate-500">{card.handle}</span>
                 </div>
             </div>
-            <p className="text-sm py-4 text-gray-800">Radiant made undercutting all of our competitors an absolute breeze.</p>
+            <p className="text-sm py-4 text-gray-800">Clean design, fast performance, and actually useful feature-rare combo.</p>
         </div>
     );
     return (
